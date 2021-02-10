@@ -12,7 +12,6 @@ $result = $conn->query($sql);
     <input type="text" name="search" id="search" placeholder="ช่องค้นหา...">
     <button type="submit" name="search_click">ค้นหา</button> 
 </form>
-<br>
 <a href="Insert_db.php">เพิ่มนักศึกษา</a>
 <br>
 <table style="width:100%" border="1">
@@ -47,3 +46,7 @@ if ($result->num_rows > 0) {
 $conn->close();
   ?>  
 </table>
+<br>
+<form action="." method="post">
+    <button type="submit" name="logout">ออกจากระบบ</button>
+</form>
