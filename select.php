@@ -12,6 +12,7 @@ $result = $conn->query($sql);
     <input type="text" name="search" id="search" placeholder="ช่องค้นหา...">
     <button type="submit" name="search_click">ค้นหา</button> 
 </form>
+<a href="Insert_db.php">เพิ่มนักศึกษา</a>
 <table style="width:100%" border="1">
   <tr>
     <th>รหัสภาพยนต์</th>
