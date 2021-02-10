@@ -11,5 +11,4 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
   ?>  
 <br>
-<br>
 <a href="select.php">กลับหน้าหลัก</a>

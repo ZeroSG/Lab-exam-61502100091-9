@@ -22,6 +22,7 @@ $result = $conn->query($sql);
     <th>เวลาที่เริ่มฉาย</th>
     <th>ชื่อผู้ใช้งาน</th>
     <th>รหัส PIN 4 ตัว</th>
+    <th>เครื่องมือ</th>
   </tr>
 <?php
 if ($result->num_rows > 0) {
@@ -33,6 +34,9 @@ if ($result->num_rows > 0) {
     <td><?php echo $row["movie_time"];?></td>
     <td><?php echo $row["movie_fname"];?></td>
     <td><?php echo $row["movie_PIN"];?></td>
+    <td align = "center">
+    <a href="delete.php?id=<?php echo $row['movie_id']; ?>">ลบ</a>
+</td>
   </tr>
   <?php
   }

@@ -10,5 +10,4 @@
     <input type="submit">
     <input type="reset">
     <br>
-    <br>
     <a href="select.php">กลับหน้าหลัก</a>
