@@ -36,6 +36,7 @@ if ($result->num_rows > 0) {
     <td><?php echo $row["movie_PIN"];?></td>
     <td align = "center">
     <a href="delete.php?id=<?php echo $row['movie_id']; ?>">ลบ</a>
+    <a href="Update.php?id=<?php echo $row['movie_id']; ?>">แก้ไข</a>
 </td>
   </tr>
   <?php
