@@ -8,8 +8,8 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
- 
 $conn->close();
   ?>  
+<br>
 <br>
 <a href="select.php">กลับหน้าหลัก</a>

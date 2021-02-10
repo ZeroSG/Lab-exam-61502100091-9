@@ -9,4 +9,6 @@
     <input type="text" name="movie_PIN" id="movie_PIN"><br>
     <input type="submit">
     <input type="reset">
+    <br>
+    <br>
     <a href="select.php">กลับหน้าหลัก</a>
