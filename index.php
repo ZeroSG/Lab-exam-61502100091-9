@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-require_once("sql.php");
+require_once("select.php");
 ?>
 </body>
 </html>
